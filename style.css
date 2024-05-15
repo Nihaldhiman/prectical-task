@@ -1,0 +1,515 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --light-color:#EEB78E;
+    --black: #141414;
+    --white: #fff;
+    --light-black:#232323;
+    --brown:#834415;
+    --light-purple:#C0BCBC;
+    --gray:#C4C4C4;
+    --light-pink:#F3CCAF;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* heading section css */
+
+.head_sec {
+    background-color: var(--light-color);
+    padding: 15px;
+}
+
+.head_sec p {
+    font-size: 17px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+
+/* navbar section css */
+
+.navbar_sec {
+    background-color: var(--black);
+}
+
+.link_txt {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.search_icon {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+.custom_input {
+    background-color: var(--light-black);
+    padding: 15px 28px 17px 28px;
+    border: 0;
+    border-radius: 50px;
+}
+.info_sec{
+    padding: 26px 30px 30px 30px;
+}
+
+
+/* banner section css */
+
+.bg_banner {
+    background-image: url(image/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.banner_title h1 {
+    font-size: 64px;
+    width: 318px;
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    color: black;
+}
+
+.banner_title h5 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.banner_title p {
+    font-size: 18px;
+    line-height: 30px;
+    width: 430px;
+}
+.view_btn .btn {
+    border: 2px solid black;
+    background-color: var(--white);
+    border-radius: 0;
+    font-size: 20px;
+    padding: 23px 30px 24px 30px;
+    color: black;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* about section css */
+
+.about_section {
+    padding-top: 115px;
+}
+.card_info {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--white);
+    opacity: 0.9;
+    width: 100%;
+}
+
+.about_info p {
+    color: black;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.about_info h3 {
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    font-size: 42px;
+    color: black;
+}
+
+/* retail section css */
+
+.retail_info {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    text-align: center;
+}
+.retail_content h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: black;
+}
+.retail_content h5 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+
+.retail_content p {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+/* gallery section css */
+
+.active-card {
+    border: 2px solid var(--light-color);
+    border-radius: 0;
+}
+.card-body-info h4 {
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+    line-height: 30px;
+}
+.card-body-info p {
+    font-size: 18px;
+    color: var(--light-color);
+    font-weight: 500;
+}
+.active-select-btn .btn {
+    background-color: var(--brown);
+    padding: 11px 45px;
+    border-radius: 0;
+}
+
+.select-btn .btn {
+    background-color: var(--black);
+    padding: 11px 45px;
+    border-radius: 0;
+}
+
+
+/* offer secton css */
+
+.offer_sec {
+    background-color: var(--light-color);
+    padding-top: 50px;
+}
+.offer_info h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 51px;
+    color: black;
+    margin-bottom: 20px;
+}
+.offer_info p {
+    font-size: 18px;
+    color: black;
+}
+
+.view_btn2 .btn {
+    border: 4px solid black;
+    background-color: var(--white);
+    border-radius: 0;
+    font-size: 20px;
+    padding: 23px 30px 24px 30px;
+    color: black;
+    font-style: italic;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+}
+
+/* signup secton css */
+.signup_sec {
+    z-index: 10;
+}
+
+.signup_border {
+    border: 5px solid var(--light-purple);
+    padding: 50px;
+    margin: 53px 71px;
+}
+.signup_info h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: black;
+    margin-bottom: 20px;
+}
+.send_box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: black;
+    padding: 12px 20px;
+}
+.signup_input{
+    background-color: var(--white);
+    padding: 24px 30px;
+    border-radius: 0;
+}
+.bg_pink {
+    background-color: var(--light-pink);
+    width: 100%;
+    height: 148px;
+    position: absolute;
+    top: 32px;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+
+/* social section css */
+
+.social_info {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 40px;
+}
+
+.social_bx1 {
+    width: 100%;
+    max-width: 475px;
+}
+.social_info h6 {
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+}
+.social_info p {
+    line-height: 30px;
+    font-weight: 400;
+    color: white;
+}
+.social_info h4 {
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+}
+
+/* footer section css */
+
+.footer_sec {
+    padding: 60px;
+    background-color: var(--black);
+}
+
+.foot_head h3 {
+    font-size: 18px;
+    color: var(--white);
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.foot-links p a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 16px;
+}
+
+
+
+
+/* responsive css */
+
+@media (max-width:1200px) {
+    .retail_info {
+        top: 44px;
+    }
+    .retail_content h1 {
+        font-size: 50px;
+    }
+    .retail_content h5 {
+        font-size: 20px;
+    }
+    .retail_content p {
+        font-size: 16px;
+    }
+
+    .active-select-btn .btn {
+        padding: 11px 30px;
+    }
+    .select-btn .btn {
+        padding: 11px 30px;
+    }
+    .card-body-info h4 {
+        font-size: 16px;
+    }
+    .offer_info h1 {
+        font-size: 40px;
+    }
+    .offer_info p {
+        font-size: 16px;
+    }
+    .view_btn2 .btn {
+        font-size: 18px;
+        padding: 20px 30px 20px 30px;
+    }
+    .signup_info h1 {
+        font-size: 40px;
+    }
+    .foot_head h3 {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width:1024px) {
+    .search_icon {
+        right: 20px;
+    }
+}
+
+
+@media (max-width:992px) {
+    .navbar_sec {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .navbar-toggler {
+        background-color: var(--light-color);
+    }
+    .banner_title h1 {
+        width: 100%;
+    }
+    .about_section {
+        padding-top: 50px;
+    }
+    .retail_info img {
+        width: 100px;
+    }
+    .retail_content h1 {
+        font-size: 40px;
+    }
+    .retail_content h5 {
+        font-size: 17px;
+    }
+    .retail_content p {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    .offer_info h1 {
+        font-size: 30px;
+    }
+    .view_btn2 .btn {
+        font-size: 16px;
+        padding: 15px 20px 15px 20px;
+    }
+    .signup_info h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:767px) {
+    .signup_border {
+        padding: 30px;
+        margin: 30px 20px;
+    }
+    .retail_info {
+        top: -20px;
+    }
+}
+
+@media (max-width:576px) {
+    .banner_title h1 {
+        font-size: 50px;
+        color: var(--white);
+    }
+    .banner_title h5 {
+        font-size: 25px;
+        color: var(--white);
+    }
+    .banner_title p {
+        font-size: 16px;
+        color: var(--white);
+    }
+    .view_btn .btn {
+        font-size: 16px;
+        padding: 10px 20px 10px 20px;
+    }
+    .about_info p {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .about_info h3{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .retail_info {
+        top: 0;
+    }
+    .retail_content h1 {
+        font-size: 25px;
+    }
+    .retail_content h5 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width:475px) {
+    .banner_title p {
+        width: 100%;
+    }
+    .footer_sec {
+        padding: 15px;
+    }
+    .signup_info h1 {
+        font-size: 25px;
+    }
+    .signup_info p {
+        font-size: 14px;
+    }
+    .signup_input{
+        padding: 15px 20px;
+    }
+    .send_box{
+        padding: 10px 13px;
+    }
+    .send_box img {
+        width: 35px;
+    }
+    .signup_input {
+        padding: 14px 25px;
+    }
+    .offer_sec{
+        padding-top: 30px;
+    }
+    .offer_info h1{
+        font-size: 25px;
+    }
+    .offer_info p{
+        font-size: 14px;
+    }
+    .banner_title h1{
+        font-size: 35px;
+    }
+    .banner_title h5 {
+        font-size: 16px;
+    }
+    .banner_title p{
+        font-size: 14px;
+    }
+    .about_info h3{
+        font-size: 25px;
+    }
+    .about_info p {
+        font-size: 14px;
+    }
+    .view_btn2 .btn{
+        padding: 10px;
+        font-size: 14px;
+    }
+    .head_sec p {
+        font-size: 14px;
+    }
+    .social_info {
+        padding: 10px;  
+    }
+    .info_sec {
+        padding: 13px;
+    }
+    .logo{
+        width: 200px;
+    }
+}
